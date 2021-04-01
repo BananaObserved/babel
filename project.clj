@@ -9,7 +9,8 @@
                  [nrepl "0.6.0"]
                  [expectations "2.2.0-rc3"]
                  [com.rpl/specter "1.1.3"]
-                 [hiccup "1.0.5"]]
+                 [hiccup "1.0.5"]
+                 [babel-middleware "0.2.0-alpha"]]
   :plugins [[lein-expectations "0.0.8"]]
   :repl-options {:nrepl-middleware
                  [babel.middleware/interceptor]
